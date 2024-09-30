@@ -12,7 +12,7 @@ const client = new Eris(process.env.TOKEN, {
 async function setStreamingPresence() {
   try {
     await client.editStatus("idle", {
-      name: "your ❤️",
+      name: "your ❤️ 24/7",
       type: 2, // Type 1 represents "PLAYING"
       url: "https://twitch.tv/paogah",
     });
